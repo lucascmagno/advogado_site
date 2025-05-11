@@ -1,0 +1,18 @@
+:root {
+    --cor-primaria: #2C3E50;       /* Azul petróleo */
+    --cor-secundaria: #C49A6C;     /* Dourado suave */
+    --cor-texto: #333333;          /* Cinza escuro */
+    --cor-fundo: #FFFFFF;          /* Branco */
+    --cor-destaque: #8B0000;       /* Vinho escuro */
+  }
+/   * Estilos globais */  
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: Merr;
+}

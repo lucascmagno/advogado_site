@@ -18,22 +18,142 @@
     </header>
 
     <section id="home">
-
+        <div class="imagem-principal">
+            <img src="./img/img2.png" alt="">
+        </div>
+        <div class="texto-imagem-principal">
+            <h1>Dra. Débora Santos</h1>
+            <p>Advogada Criminalista – OAB/SP 123456</p>
+        </div>
     </section>
 
     <section id="sobre">
-
+        <div class="img-sobre">
+            <img src="./img/img1.jpg" alt="">
+        </div>
+        <div class="texto-sobre">
+            <h1>Sobre a Advogada</h1>
+            <p>Com ampla experiência no Direito Penal, Débora Santos é reconhecida por sua atuação ética, estratégica e comprometida com a defesa dos direitos fundamentais. Graduada pela Universidade Presbiteriana Mackenzie e especializada em Direito Penal e Processo Penal, dedica sua carreira à defesa de indivíduos acusados criminalmente, atuando com firmeza desde o início da investigação até as instâncias superiores.</p>
+        </div>
     </section>
 
     <section id="servicos">
-    
+        <h1>Áreas de Atuação – Serviços Oferecidos</h1>
+
+        <div class="container-servicos">
+            <div class="content-servicos">
+                <h3>Defesa Criminal Completa</h3>
+                <p>Atuação em todas as fases do processo penal: inquérito policial, ações penais, recursos e execução penal. A Dra. Débora acompanha o cliente desde a delegacia até o julgamento, garantindo uma defesa técnica e personalizada.</p>
+            </div>
+
+            <div class="content-servicos">
+                <h3> Crimes contra a Pessoa</h3>
+                <p>Atendimento em casos de:</p>
+
+                <ul>
+                    <li>Homicídio (simples, qualificado, culposo)</li>
+                    <li>Tentativa de Homicídio</li>
+                    <li>Lesão Corporal (leve, grave, gravíssima)</li>
+                    <li>Crimes Sexuais</li>
+                    <li>Crimes contra a Honra</li>
+                    <li>Violência Domésticaa (lei maria de penha)</li>
+                </ul>
+                <p>Cada caso é analisado com sensibilidade e rigor jurídico, buscando estratégias eficazes de defesa ou medidas protetivas, conforme o caso.</p>
+            </div>
+
+            <div class="content-servicos">
+                <h3>Crimes contra o Patrimônio</h3>
+                <p>Defesa em situações que envolvem:</p>
+                <ul>
+                    <li>Furto e roubo</li>
+                    <li>Estelionato (golpes, fraudes)</li>
+                    <li>Dano ao patrimônio</li>
+                    <li>Receptação de bens</li>
+                </ul>
+                <p>A atuação foca na análise técnica da prova e busca por absolvição, desclassificação ou redução de pena.</p>
+            </div>
+
+            <div class="content-servicos">
+                <h3>Crimes relacionados à Lei de Drogas</h3>
+                <p>Atuação em processos de:</p>
+                <ul>
+                    <li>Tráfico de drogas</li>
+                    <li>Posse de entorpecentes</li>
+                    <li>Uso de drogas</li>
+                    <li>Associação para o tráfico</li>
+                    <li>Cultivo doméstico</li>
+                </ul>
+                <p>É feita análise da legalidade das provas, abordagens e prisões, com foco em garantir os direitos do acusado.</p>
+            </div>
+            <div class="content-servicos">
+                <h3>Tribunal do Júri</h3>
+                <p>Especialização em julgamentos relacionados a:</p>
+                <ul>
+                    <li>Homicídios dolosos</li>
+                    <li>Feminicídios</li>
+                    <li>Tentativas de homicídio</li>
+                    <li>Crimes contra a vida</li>
+                    <li>Crimes hediondos</li>
+                </ul>
+                <p>Preparação de defesa técnica e emocional para o julgamento perante o júri popular, com argumentação persuasiva e defesa consistente.</p>
+            </div>
+
+            <div class="content-servicos">
+                <h3>Prisões e Liberdades</h3>
+                <p>Atendimento emergencial em casos de:</p>
+                <ul>
+                    <li>Flagrante delito</li>
+                    <li>Prisão preventiva</li>
+                    <li>Prisão temporária</li>
+                    <li>Liberdade provisória</li>
+                    <li>Revogação de prisões</li>
+                    <li>Progressão de regime</li>
+                    <li>Indulto e comutação de pena</li>
+                </ul>
+                <p>Atuação rápida e eficiente para preservar a liberdade e os direitos do cliente.</p>
+            </div>
+
+            <div class="content-servicos">
+                <h3>Habeas Corpus e Recursos</h3>
+                <p>Propositura de:</p>
+                <ul>
+                    <li>Habeas Corpus (preventivo e liberatório)</li>
+                    <li>Recursos especiais e extraordinários</li>
+                    <li>Apelações</li>
+                    <li>Embargos de declaração</li>
+                    <li>Revisão criminal</li>
+                </ul>
+                <p>A Dra. Débora atua para corrigir injustiças, ilegalidades e excessos cometidos durante o processo penal.</p>
+            </div>
+        </div>
     </section>
 
     <section id="contato">
+        <!--formulario de contato via whatsapp-->
+        <h2>Contato</h2>
+        <form action="https://api.whatsapp.com/send?phone=5591993820869&text=Olá%20Débora%2C%20gostaria%20de%20mais%20informações." method="get" target="_blank">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
 
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
     </section>
 
     <footer>
+        <div class="footer-contato">
+            <h1>📞 Contato</h1>
+            <p>Telefone/WhatsApp: (11) 91234-5678</p>
+            <p>Email: contato@deboraadv.com.br</p>
+            <p>Endereço: Rua da Liberdade, 45 – São Paulo/SP</p>
+            <p>Atendimento com horário marcado – presencial ou online</p>
+        </div>
+        
         <p>&copy; 2023 Débora Santos. Todos os direitos reservados.</p>
     </footer>
 </body>
