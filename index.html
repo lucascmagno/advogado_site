@@ -142,20 +142,25 @@
             <label for="mensagem">Mensagem:</label>
             <textarea id="mensagem" name="mensagem" required></textarea>
 
-            <button type="submit">Enviar</button>
+            <input type="submit"></input>
         </form>
     </section>
 
     <footer>
         <div class="footer-contato">
-            <h1>📞 Contato</h1>
-            <p>Telefone/WhatsApp: (11) 91234-5678</p>
+            <h1>Contato</h1>
+            <p>Telefone/WhatsApp: (91) 9 9999-9999</p>
             <p>Email: contato@deboraadv.com.br</p>
-            <p>Endereço: Rua da Liberdade, 45 – São Paulo/SP</p>
+            <p>Endereço: charlie brown e snoopy, 45 – Cidadela/NE</p>
             <p>Atendimento com horário marcado – presencial ou online</p>
         </div>
         
-        <p>&copy; 2023 Débora Santos. Todos os direitos reservados.</p>
+        <p class="copy">&copy; <span id="ano-atual"></span> Débora Santos. Todos os direitos reservados.</p>
     </footer>
+
+    <script>
+        // Insere o ano atual automaticamente
+        document.getElementById("ano-atual").textContent = new Date().getFullYear();
+      </script>
 </body>
 </html>
