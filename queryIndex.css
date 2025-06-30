@@ -67,6 +67,10 @@
         text-decoration: none;
         color: #000;
     }
+
+    #sobre img{
+        width: 100%;
+    }
 }
 
 /* TELAS MAIORES (NOTEBOOK, DESKTOP) */
