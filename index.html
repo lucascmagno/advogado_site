@@ -5,19 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Site da advogada Débora Santos, especializada em Direito Penal.">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="queryIndex.css">
+
+    <script defer>
+    // Mostrar/ocultar menu no mobile
+    document.addEventListener("DOMContentLoaded", function () {
+        const toggleButton = document.getElementById("menu-toggle");
+        const navList = document.getElementById("nav-list");
+
+        toggleButton.addEventListener("click", function () {
+            navList.classList.toggle("show");
+        });
+    });
+
+    // Atualiza ano no rodapé
+    document.getElementById("ano-atual").textContent = new Date().getFullYear();
+</script>
+
+
     <title>Débora Santos</title>
 </head>
 <body>
     <header>
+        <button id="menu-toggle" aria-label="Abrir menu">☰</button>
+
         <nav>
-            <ul>
-                <li><a href="#home" target="_self">Home</a></li>
-                <li><a href="#sobre" target="_self">Sobre</a></li>
-                <li><a href="#servicos" target="_self">Serviços</a></li>
-                <li><a href="#contato" target="_self">Contato</a></li>
+            <ul id="nav-list" class="hidden">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
+
 
     <section id="home">
         <div class="home-container">
