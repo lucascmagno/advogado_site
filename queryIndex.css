@@ -73,7 +73,7 @@
     }
 }
 
-/* TELAS MAIORES (NOTEBOOK, DESKTOP) */
+/* TELAS MAIORES (NOTEBOOK, DESKTOP)  */
 @media (min-width: 769px) and (max-width: 1024px) {
     #sobre{
         flex-direction: column;
