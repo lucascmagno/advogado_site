@@ -68,3 +68,25 @@
         color: #000;
     }
 }
+
+/* TELAS MAIORES (NOTEBOOK, DESKTOP) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    #sobre{
+        flex-direction: column;
+    }
+    .home-container {
+        padding: 1.5rem;
+    }
+
+    .texto-imagem-principal h1 {
+        font-size: 2.25rem;
+    }
+
+    .container-servicos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+}
